@@ -170,48 +170,48 @@ export function useDataList() {
           }
         ]
       },
-      {
-        label: () => h(NEllipsis, null, { default: () => t('menu.resources') }),
-        key: 'resource',
-        icon: renderIcon(FolderOutlined),
-        children: [
-          {
-            label: t('menu.file_manage'),
-            key: '/resource/file-manage',
-            icon: renderIcon(FileSearchOutlined)
-          },
-          {
-            label: t('menu.udf_manage'),
-            key: 'udf-manage',
-            icon: renderIcon(RobotOutlined),
-            children: [
-              {
-                label: t('menu.resource_manage'),
-                key: '/resource/resource-manage'
-              },
-              {
-                label: t('menu.function_manage'),
-                key: '/resource/function-manage'
-              }
-            ]
-          },
-          {
-            label: t('menu.task_group_manage'),
-            key: 'task-group-manage',
-            icon: renderIcon(GroupOutlined),
-            children: [
-              {
-                label: t('menu.task_group_option'),
-                key: '/resource/task-group-option'
-              },
-              {
-                label: t('menu.task_group_queue'),
-                key: '/resource/task-group-queue'
-              }
-            ]
-          }
-        ]
-      },
+      // {
+      //   label: () => h(NEllipsis, null, { default: () => t('menu.resources') }),
+      //   key: 'resource',
+      //   icon: renderIcon(FolderOutlined),
+      //   children: [
+      //     {
+      //       label: t('menu.file_manage'),
+      //       key: '/resource/file-manage',
+      //       icon: renderIcon(FileSearchOutlined)
+      //     },
+      //     {
+      //       label: t('menu.udf_manage'),
+      //       key: 'udf-manage',
+      //       icon: renderIcon(RobotOutlined),
+      //       children: [
+      //         {
+      //           label: t('menu.resource_manage'),
+      //           key: '/resource/resource-manage'
+      //         },
+      //         {
+      //           label: t('menu.function_manage'),
+      //           key: '/resource/function-manage'
+      //         }
+      //       ]
+      //     },
+      //     {
+      //       label: t('menu.task_group_manage'),
+      //       key: 'task-group-manage',
+      //       icon: renderIcon(GroupOutlined),
+      //       children: [
+      //         {
+      //           label: t('menu.task_group_option'),
+      //           key: '/resource/task-group-option'
+      //         },
+      //         {
+      //           label: t('menu.task_group_queue'),
+      //           key: '/resource/task-group-queue'
+      //         }
+      //       ]
+      //     }
+      //   ]
+      // },
       {
         label: () =>
           h(NEllipsis, null, { default: () => t('menu.data_quality') }),

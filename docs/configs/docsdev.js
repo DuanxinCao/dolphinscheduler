@@ -1138,31 +1138,31 @@ export default {
                             },
                         ],
                     },
-                    {
-                        title: '资源中心',
-                        children: [
-                            {
-                                title: '简介',
-                                link: '/zh-cn/docs/dev/user_doc/guide/resource/intro.html'
-                            },
-                            {
-                                title: '配置详情',
-                                link: '/zh-cn/docs/dev/user_doc/guide/resource/configuration.html'
-                            },
-                            {
-                                title: '文件管理',
-                                link: '/zh-cn/docs/dev/user_doc/guide/resource/file-manage.html'
-                            },
-                            {
-                                title: 'UDF 管理',
-                                link: '/zh-cn/docs/dev/user_doc/guide/resource/udf-manage.html'
-                            },
-                            {
-                                title: '任务组管理',
-                                link: '/zh-cn/docs/dev/user_doc/guide/resource/task-group.html'
-                            },
-                        ],
-                    },
+                    // {
+                    //     title: '资源中心',
+                    //     children: [
+                    //         {
+                    //             title: '简介',
+                    //             link: '/zh-cn/docs/dev/user_doc/guide/resource/intro.html'
+                    //         },
+                    //         {
+                    //             title: '配置详情',
+                    //             link: '/zh-cn/docs/dev/user_doc/guide/resource/configuration.html'
+                    //         },
+                    //         {
+                    //             title: '文件管理',
+                    //             link: '/zh-cn/docs/dev/user_doc/guide/resource/file-manage.html'
+                    //         },
+                    //         {
+                    //             title: 'UDF 管理',
+                    //             link: '/zh-cn/docs/dev/user_doc/guide/resource/udf-manage.html'
+                    //         },
+                    //         {
+                    //             title: '任务组管理',
+                    //             link: '/zh-cn/docs/dev/user_doc/guide/resource/task-group.html'
+                    //         },
+                    //     ],
+                    // },
                     {
                         title: '监控中心',
                         link: '/zh-cn/docs/dev/user_doc/guide/monitor.html',
